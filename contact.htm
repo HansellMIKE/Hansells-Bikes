@@ -1,0 +1,120 @@
+<!-- 
+*********************************************************
+Title: Bike shop
+Use: Contact Page of bike shop
+Author: Mike Hansell
+School/Term: Southern Illinois University, Fall 2021
+Developed: September 17, 2021
+Tested: September 19, 2021; Passed on Firefox and Chrome browsers.
+**********************************************************
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+       <!--
+add favicons
+-->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="Style.css">
+        <meta charset="utf-8">
+        <title>Page Title</title>
+</head>
+<body>
+    <p>MENU</p>
+    <nav id="mobile_menu"></nav> <nav id="nav_menu"> <ul>
+    <li><a href="Hansell's_Bicycles.htm">Home</a></li>
+    <li><a href="rentals.htm">Rental's</a></li> 
+    <li><a href="sales.htm">Sales</a></li> 
+    <li><a href="services.htm" >Access our services</a></li> . .
+</ul> </nav>
+    <!--
+    Create the area for costumer to enter Name
+    -->
+    FullName:<input type="text" id="FullName" minlength="15" maxlength="25" size="25" required><br><br>
+    
+    <!--
+    Create box for user to enter Address
+    -->
+    Address:<input type="text" id="Address" minlength="15" maxlength="50" size="50" required><br><br> 
+    
+    <!--
+    Create box for user to enter City
+    -->
+    City:<input type="text" id="City" minlength="4" maxlength="25" size="25" required><br><br> 
+    
+    <!--
+    Create the pull down box to select the state
+    -->
+    State:
+    <select id="State">
+        <optgroup label="Select State"> 
+            <option text="Illinois">Illinois</option> 
+            <option text="Missouri">Missouri</option> 
+            <option text="Wisconsin">Wisconisn</option>
+            <option text="Washington">Washington</option>
+            <option text="Arizona">Arizona</option>
+            <option text="New York">New York</option>
+            <option text="Florida">Florida</option>
+            <option text="Kentucky">Kentucky</option>
+        </optgroup>
+        </select> 
+        <br><br>
+
+    <!--
+    Create the are to enter your Zipcode
+    -->
+    ZipCode: <input type="text" id="ZipCode" minlength=5 maxlength="10" required ><br><br>
+    
+    <!--
+    Create the Phone number input
+    -->
+    PhoneNumber: <input type="tel" id="Phone Number" minlength="10" maxlength="12" required autocomplete="tel"><br><br>
+    
+    <!--
+    Create the date that you submited the request box
+    -->
+    SubmissionDate: <input type="date" required><br><br>
+    
+    <!--
+    Create the box to check what you have an inquiry about
+    -->
+    InquiryType:<br>
+    <input type="checkbox" name="Sales" value="Sales">Sales<br> 
+    <input type="checkbox" name="Service" value="Service">Service<br> 
+    <input type="checkbox" name="Rental" value="Rental">Rental<br>
+    
+    <!-- 
+    Create the section to select which Bike you are asking about
+    -->
+    Bicycle Type:<br>
+    <input type="radio" name="Bike1" value="Racing Bike">Racing Bike<br> 
+    <input type="radio" name="Bike2" value="Mountain Bike">Mountain Bike<br> 
+    <input type="radio" name="Bike3" value="BMX Bike">BMX Bike<br>
+    <input type="radio" name="Bike4" value="Street bike">Street Bike<br><br>
+    
+    <!--
+    Create the password box
+    -->
+    Create Password: 
+    <input type="password" id="password" maxlength="15" placeholder="Enter your password" required><br><br> 
+    
+    <!--
+    Create the Message box to add comments
+    -->
+    Message:<br>
+    <textarea id="Message" placeholder="Please enter any comments that you may have here..."> </textarea> <br><br>
+    
+    <!--
+    Create the Submit button and Reset button
+    -->
+     <form method="submit" action="response.htm">
+      <input type="submit"/>
+     </form> >
+    <input type="reset" id="resetform" value="Reset"> 
+     
+        
+   
+
+ 
+</body>
+</html>

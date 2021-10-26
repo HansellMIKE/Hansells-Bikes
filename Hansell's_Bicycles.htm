@@ -1,0 +1,77 @@
+<!-- 
+*********************************************************
+Title: Bike shop
+Use: To develop a Bike shop web page
+Author: Mike Hansell
+School/Term: Southern Illinois University, Fall 2021
+Developed: September 09, 2021
+Tested: September 11, 2021; Passed on Firefox and Chrome browsers.
+**********************************************************
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!--
+add favicons
+-->
+    <link rel="Images" href="Audio%2520and%2520images/racing-bicycle-161449_1280.png""Audio%2520and%2520images/Racing-Bike2.jpg""Audio%2520and%2520images/Audio1.wav">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="styles/slicknav.css"> <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <script src="js/jquery.slicknav.min.js"></script> <script type="text/javascript"> $(document).ready(function(){
+        $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); }); </script>
+<!--
+This is the code to add in the slicknav menu
+-->
+        <meta charset="utf-8">
+        <title>Hansell's Bicycle Shop</title>
+        <meta name="description" content="a simple Bike shop that will get you the bike of your dreams">
+        <meta name="keywords" content="Hansell's, Bicycles, Shop, Bikes">
+    
+</head>
+<body>
+    <object type="video/mp4"
+data="Audio1.wav" 
+width="480" height="270">
+<param name="autoplay" value="true"> </object>
+
+    <p>MENU</p>
+    <nav id="mobile_menu"></nav> <nav id="nav_menu"> <ul>
+    <li><a href="rentals.htm">Rental's</a></li> 
+    <li><a href="sales.htm">Sales</a></li> 
+    <li><a href="services.htm" >Access our services</a></li> 
+    <li><a href="contact.htm">Contact us</a></li>. .
+</ul> </nav>
+<!--
+code for the slick nav menu to create the actual visual menu for the page
+-->
+
+    <p> We have an wide variety of Bikes for you to choose from, including </p>
+    <ol>
+        <li>Racing Bike</li>
+        <li>Mountain bike</li>
+        <li>BMX Bike</li>
+        <li>street bike</li>
+        <li>hybrid bike</li>
+    <!-- 
+    this is the html for adding in an image as well as a fig caption for that image
+    -->
+    <article>  
+        <h1>Racing bicycle</h1>
+    <figure>
+        <img id="race" src="Racing-Bike2.jpg" alt="Racing Bike">
+    </figure>
+    <p>
+    Check out our newest Racing Bike! It is the highest quality Bike that money can buy
+    </p>
+    </article> 
+    <!--
+Create the image rollover
+-->
+        <a><img src="Race-Bike1.jpg" width="82" height="86" title="Race Bike" alt="Race1">
+        </a>
+    
+    <p>GO check out the school this is based out of<a href="https://siu.edu/"></a></p>
+    
+    <p>&copy; 2021 Hansell's Bicycles</p>
+</body>
+</html>
